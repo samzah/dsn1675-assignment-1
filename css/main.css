@@ -20,6 +20,7 @@ h1 {
   margin: 0;
   padding: .5em;
   font-weight: bold;
+  float: left;
 }
 
 header {
@@ -73,12 +74,18 @@ img {
   background-position: left top 35px, right top 20px, center 10px;
 }
 
-h2{
-	text-align: center;
+.button{
+	background-color: #512200;
+	border-radius: 0.25em;
+	padding: .5em;
+	color: white;
+	position: relative;
+	bottom: 7px;
+	float: left;
 }
 
-main a{
-	text-decoration: none;
+h2{
+	text-align: center;
 }
 
 .intro p {
@@ -93,4 +100,37 @@ main a{
 	position: absolute;
 	width: 110%;
 	margin: 0 -5%;
+}
+
+.learn{
+	width: 100%;
+	background-color: #512200;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.learn a{
+	text-decoration: none;
+	color: white;
+
+.details li{
+	display: inline-block;
+	width: 33%;
+}
+
+.details{
+	padding: 0;
+}
+
+.details dt{
+	font-weight: bold;
+}
+
+.details dl,
+	margin: 0;
+}
+
+.details dd{
+	margin: 0;
 }
