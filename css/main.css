@@ -25,6 +25,7 @@ h1 {
 header {
   color: #512200;
   text-align: center;
+  position: relative;
 }
 
 nav li {
@@ -70,4 +71,26 @@ img {
   background-size: 70px auto, 70px auto, 100px auto;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left top 35px, right top 20px, center 10px;
+}
+
+h2{
+	text-align: center;
+}
+
+main a{
+	text-decoration: none;
+}
+
+.intro p {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin-bottom: -5em
+	top: -8em;
+}
+
+.intro img{
+	position: absolute;
+	width: 110%;
+	margin: 0 -5%;
 }
