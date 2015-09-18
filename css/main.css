@@ -1,0 +1,12 @@
+html{
+	box-sizing: border-box;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+header{
+	position: relative;
+	text-align: center;
+	padding-top: 1em;
+}
