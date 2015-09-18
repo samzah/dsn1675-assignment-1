@@ -5,8 +5,69 @@ html{
 	box-sizing: inherit;
 }
 
-header{
-	position: relative;
-	text-align: center;
-	padding-top: 1em;
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: .5em;
+  font-weight: bold;
+}
+
+header {
+  color: #512200;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  margin: 0;
+  padding: 1em .5em 1em 1em;
+  color: white;
+  background-color: #512200;
+  opacity: 0.5;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #512200;
+  opacity: .75;
+  color: white;
+}
+
+nav ol {
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.masthead {
+  background-image:  url("../img/logo.png");
+  background-size: 70px auto, 70px auto, 100px auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left top 35px, right top 20px, center 10px;
 }
