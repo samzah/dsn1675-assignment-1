@@ -39,6 +39,7 @@ h1 {
 
 h2{
   text-align: center;
+  padding: 1em;
   }
 
 nav li {
@@ -88,19 +89,17 @@ img {
   display: inline-block;
   }
 
-
-.intro p {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  color: yellow;
-
-}
-
 .intro img {
   position: relative;
-}
+  }
 
+.imp {
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  top: 200px;
+  }
 
 .learn {
 	width: 100%;
