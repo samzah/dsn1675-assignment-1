@@ -89,17 +89,21 @@ img {
   display: inline-block;
   }
 
-.intro img {
+.maerten {
   position: relative;
-  }
+  clear: both;
+}
 
-.imp {
-  position: absolute;
-  font-weight: bold;
-  color: white;
+p {
+  color: #fff;
   text-align: center;
-  top: 200px;
-  }
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em 0 10em 0;
+}
 
 .learn {
 	width: 100%;
