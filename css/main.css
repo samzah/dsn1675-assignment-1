@@ -8,26 +8,38 @@ html{
 body {
   font-family: 'Dosis', sans-serif;
   margin: 0;
-}
+  }
 
 body {
   margin: 0;
   font-family: 'Dosis', sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-  margin: 0;
-  padding: .5em;
-  font-weight: bold;
-  float: left;
-}
+  }
 
 header {
   color: #512200;
   text-align: center;
-  position: relative;
-}
+  }
+
+.masthead {
+  background-image: url("../img/logo.png");
+  background-size: 55px auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: top 35px left 10px;
+
+  }
+
+h1 {
+  font-size: 2em;
+  margin: 1em 0em 1em 0em;
+  padding: 0em;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  }
+
+h2{
+  text-align: center;
+  }
 
 nav li {
   display: inline-block;
@@ -35,7 +47,8 @@ nav li {
   width: 25%;
   list-style-type: none;
   padding: 0;
-}
+  margin: 0;
+  }
 
 nav a {
   display: block;
@@ -47,90 +60,78 @@ nav a {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
-}
-
-a:hover {
-  background-color: #512200;
-  opacity: .75;
-  color: white;
-}
+  }
 
 nav ol {
   overflow: hidden;
   padding: 0;
   width: 100%;
   margin: 0;
-}
+  }
+
+a:hover {
+  background-color: #512200;
+  opacity: .75;
+  color: white;
+  }
 
 img {
   width: 100%;
   display: block;
-}
+  }
 
-.masthead {
-  background-image:  url("../img/logo.png");
-  background-size: 70px auto, 70px auto, 100px auto;
-  background-repeat: no-repeat, no-repeat, repeat;
-  background-position: left top 35px, right top 20px, center 10px;
-}
-
-.button{
+.button {
 	background-color: #512200;
 	border-radius: 0.25em;
 	padding: .5em;
 	color: white;
-	position: relative;
-	bottom: 7px;
-	float: left;
-}
+  display: inline-block;
+  }
 
-h2{
-	text-align: center;
-}
 
 .intro p {
-	position: relative;
-	text-align: center;
-	width: 100%;
-	margin-bottom: -5em
-	top: -8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: yellow;
+
 }
 
-.intro img{
-	position: absolute;
-	width: 110%;
-	margin: 0 -5%;
+.intro img {
+  position: relative;
 }
 
-.learn{
+
+.learn {
 	width: 100%;
 	background-color: #512200;
 	text-align: center;
 	padding: .5em;
 	margin-bottom: 2em;
 	border-radius: 0.25em;
-}
-.learn a{
+  }
+
+.learn a {
 	text-decoration: none;
 	color: white;
 
-.details li{
+.details li {
 	display: inline-block;
 	width: 33%;
-}
+  }
 
-.details{
+.details {
 	padding: 0;
-}
+  }
 
-.details dt{
+.details dt {
 	font-weight: bold;
-}
+  }
 
-.details dl,
+.details dl {
 	margin: 0;
-}
+  }
 
 .details dd{
 	margin: 0;
-}
+  }
