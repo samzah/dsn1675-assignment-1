@@ -89,6 +89,19 @@ nav ol {
   margin: 0;
   }
 
+.week{
+  text-align: left;
+  padding: 0;
+  list-style: none;
+  }
+
+
+.week ul{
+  margin: 0em 0em 1em 0em;
+  list-style: none;
+  padding: 0;
+}
+
 a:hover {
   background-color: #512200;
   opacity: .75;
@@ -141,7 +154,6 @@ dd {
 figure {
   width: 110%;
 }
-
 
 
 .learn {
