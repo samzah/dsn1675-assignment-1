@@ -18,19 +18,22 @@ body {
 header {
   color: #512200;
   text-align: center;
-  }
-
-.masthead {
   background-image: url("../img/logo.png");
   background-size: 55px auto;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: top 35px left 10px;
-
   }
+
+
+main {
+  margin: 0 5%;
+}
+
+
 
 h1 {
   font-size: 2em;
-  margin: 1em 0em 1em 0em;
+  margin: 1em 2em 1em 2em;
   padding: 0em;
   font-weight: bold;
   text-align: center;
@@ -87,6 +90,9 @@ img {
 	padding: .5em;
 	color: white;
   display: inline-block;
+  position: absolute;
+  top: 2em;
+  right: 1em;
   }
 
 .maerten {
@@ -94,16 +100,26 @@ img {
   clear: both;
 }
 
-p {
-  color: #fff;
-  text-align: center;
+.maerten p {
   position: absolute;
+  top: 25%;
+  text-align: center;
+  color: white;
   width: 100%;
-  bottom: -10px;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 1em 0 10em 0;
 }
+
+dl div {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+dd {
+  margin: 0;
+}
+
+
+
 
 .learn {
 	width: 100%;
