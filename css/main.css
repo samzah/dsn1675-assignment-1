@@ -21,7 +21,7 @@ header {
   background-image: url("../img/logo.png");
   background-size: 55px auto;
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: top 35px left 10px;
+  background-position: top 15% left 5%;
   }
 
 
@@ -32,7 +32,7 @@ main {
 
 
 h1 {
-  font-size: 2em;
+  font-size: 1.1em;
   margin: 1em 2em 1em 2em;
   padding: 0em;
   font-weight: bold;
@@ -44,6 +44,23 @@ h2{
   text-align: center;
   padding: 1em;
   }
+
+.prices div{
+  display: inline-block;
+  background-color: #512200;
+  padding: .5em 3em .5em 3em;
+  margin: 0em 1em 0em 1em;
+  color: white;
+  width: 40%;
+  }
+
+.prices{
+  text-align:center;
+  }
+
+nav {
+  background-color: #512200;
+}
 
 nav li {
   display: inline-block;
@@ -59,7 +76,6 @@ nav a {
   margin: 0;
   padding: 1em .5em 1em 1em;
   color: white;
-  background-color: #512200;
   opacity: 0.5;
   text-decoration: none;
   text-align: center;
@@ -79,6 +95,10 @@ a:hover {
   color: white;
   }
 
+a {
+  color: white;
+  }
+
 img {
   width: 100%;
   display: block;
@@ -91,7 +111,7 @@ img {
 	color: white;
   display: inline-block;
   position: absolute;
-  top: 2em;
+  top: .5em;
   right: 1em;
   }
 
@@ -118,6 +138,9 @@ dd {
   margin: 0;
 }
 
+figure {
+  width: 110%;
+}
 
 
 
