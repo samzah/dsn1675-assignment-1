@@ -219,7 +219,7 @@ footer ul {
   margin: 1em 0 0 0;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 15em) {
   .nav li {
     display: block;
   }
@@ -230,10 +230,28 @@ footer ul {
     display: inline-block;
   }
 
-
-
-
 }
 
+
+
+@media only screen and (min-width: 45em) {
+
+.content1 {
+  float: right;
+  width: 40%;
+  clear: right;
+}
+
+.content2 {
+  float: left;
+  clear: all;
+  width: 40%;
+}
+
+.content3 {
+  width: 40%;
+}
+
+}
 
 
