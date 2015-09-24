@@ -30,7 +30,6 @@ main {
 }
 
 
-
 h1 {
   font-size: 1.1em;
   margin: 1em 2em 1em 2em;
@@ -155,7 +154,6 @@ figure {
   width: 110%;
 }
 
-
 .learn {
 	width: 100%;
 	background-color: #512200;
@@ -168,24 +166,27 @@ figure {
 .learn a {
 	text-decoration: none;
 	color: white;
+}
 
-.details li {
-	display: inline-block;
-	width: 33%;
-  }
+footer {
+  margin: 1em;
+}
 
-.details {
-	padding: 0;
-  }
+footer ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-.details dt {
-	font-weight: bold;
-  }
+footer p {
+  margin: 1em;
+  padding: 0;
+}
 
-.details dl {
-	margin: 0;
-  }
+footer a {
+  color: black;
+}
 
-.details dd{
-	margin: 0;
-  }
+
+
