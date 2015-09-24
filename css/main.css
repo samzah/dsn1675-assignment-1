@@ -37,10 +37,6 @@ header {
   }
 
 
-main {
-  margin: 0 5%;
-}
-
 
 h1 {
   font-size: 1.1em;
@@ -56,10 +52,10 @@ h2{
   padding: 1em;
   }
 
-.prices div{
+.prices {
   display: inline-block;
   background-color: #512200;
-  padding: .5em 3em .5em 3em;
+  padding: 1em;
   margin: 0em 1em 0em 1em;
   color: white;
   width: 40%;
@@ -104,6 +100,7 @@ nav ol {
   text-align: left;
   padding: 0;
   list-style: none;
+  margin: 0 5%;
   }
 
 
@@ -162,8 +159,9 @@ dd {
   margin: 0;
 }
 
-figure {
-  width: 110%;
+figure{
+  margin: 0;
+  width: 100%;
 }
 
 .learn {
@@ -219,6 +217,15 @@ footer ul {
   margin: 1em 0 0 0;
 }
 
+.footerbox {
+  margin: 0 5%;
+}
+
+.content1, .content2, .content3 {
+  margin: 0 5%;
+}
+
+
 @media only screen and (min-width: 15em) {
   .nav li {
     display: block;
@@ -229,6 +236,19 @@ footer ul {
   .prices {
     display: inline-block;
   }
+}
+
+
+@media only screen and (min-width: 27em) {
+
+.prices a {
+  margin: 1em;
+  background-color: green;
+
+
+
+}
+
 
 }
 
