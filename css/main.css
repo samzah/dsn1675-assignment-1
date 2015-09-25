@@ -34,6 +34,7 @@ header {
   background-size: 55px auto;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: top 15% left 5%;
+  position: relative;
   }
 
 
@@ -76,6 +77,33 @@ h2{
   margin: 0 5%;
   padding: .5em;
   margin-top: .5em;
+}
+
+.facts {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.facts dd{
+  float: left;
+  width: 33.333%;
+  padding-top: 1.5em;
+}
+
+.facts dt{
+  position: absolute;
+  width: 33.333%;
+  top: 0;
+  left: 0;
+}
+
+.facts dt:nth-child(3){
+  left: 33.333%;
+}
+
+.facts dt:nth-child(5){
+  left: 66.666%;
 }
 
 nav {
@@ -256,6 +284,14 @@ p {
   padding-bottom: 0;
 }
 
+
+.wrapper {
+  max-width: 42em;
+  margin: 0 auto;
+
+}
+
+
 @media only screen and (min-width: 15em) {
   .nav li {
     display: block;
@@ -276,6 +312,12 @@ p {
   padding-left: 2em;
 }
 
+html {
+font-size: 110%;
+line-height: 1.4;
+  }
+
+
 }
 
 @media only screen and (min-width: 45em) {
@@ -295,6 +337,18 @@ p {
 .content3 {
   width: 40%;
 }
+
+.facts dd:nth-child(2){
+  padding-top: 3em;
+
+}
+
+html {
+  font-size: 120%;
+  line-height: 1.5;
+  }
+}
+
 
 }
 
