@@ -50,20 +50,32 @@ h1 {
 h2{
   text-align: center;
   padding: 1em;
-  }
-
-.prices {
   display: inline-block;
-  background-color: #b808ff;
-  padding: 1em;
-  margin: 0em 1em 0em 1em;
-  color: white;
-  width: 40%;
   }
 
-.prices{
+.prices1 {
+  float: left;
+  clear: all;
+  color: white;
+  width: 30%;
   text-align:center;
+  background-color: #b808ff;
+  margin: 0 5%;
+  padding: .5em;
+  margin-top: .5em;
   }
+
+.prices2 {
+  float: right;
+  clear: right;
+  color: white;
+  width: 30%;
+  text-align:center;
+  background-color: #b808ff;
+  margin: 0 5%;
+  padding: .5em;
+  margin-top: .5em;
+}
 
 nav {
   background-color: #000;
@@ -240,7 +252,7 @@ footer ul {
 
 p {
   margin: 0 5%;
-  padding-bottom: 1em;
+  padding-bottom: 0;
 }
 
 @media only screen and (min-width: 15em) {
