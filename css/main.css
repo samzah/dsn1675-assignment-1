@@ -54,7 +54,7 @@ h2{
 
 .prices {
   display: inline-block;
-  background-color: #512200;
+  background-color: #b808ff;
   padding: 1em;
   margin: 0em 1em 0em 1em;
   color: white;
@@ -66,7 +66,7 @@ h2{
   }
 
 nav {
-  background-color: #512200;
+  background-color: #000;
 }
 
 nav li {
@@ -82,7 +82,7 @@ nav a {
   display: block;
   margin: 0;
   padding: 1em .5em 1em 1em;
-  color: white;
+  color: #b808ff;
   opacity: 0.5;
   text-decoration: none;
   text-align: center;
@@ -111,7 +111,7 @@ nav ol {
 }
 
 a:hover {
-  background-color: #512200;
+  background-color: #000;
   opacity: .75;
   color: white;
   }
@@ -126,7 +126,7 @@ img {
   }
 
 .button {
-	background-color: #512200;
+	background-color: #b808ff;
 	border-radius: 0.25em;
 	padding: .5em;
 	color: white;
@@ -159,14 +159,25 @@ dd {
   margin: 0;
 }
 
-figure{
+figure {
   margin: 0;
   width: 100%;
+  position: relative;
 }
 
+.figcap {
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  color: black;
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+
+}
 .learn {
 	width: 100%;
-	background-color: #512200;
+	background-color: #b808ff;
 	text-align: center;
 	padding: .5em;
 	margin-bottom: 2em;
@@ -180,7 +191,7 @@ figure{
 
 footer {
 margin: 0;
-background-color: brown;
+background-color: #b808ff;
 color: white;
 }
 
@@ -219,6 +230,8 @@ footer ul {
 
 .footerbox {
   margin: 0 5%;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 .content1, .content2, .content3 {
@@ -239,24 +252,18 @@ p {
   }
   .prices {
     display: inline-block;
+    padding-top: .5em;
   }
 }
 
 
 @media only screen and (min-width: 27em) {
 
-.prices a {
-  margin: 1em;
-  background-color: green;
-
-
-
+.prices {
+  padding-left: 2em;
 }
 
-
 }
-
-
 
 @media only screen and (min-width: 45em) {
 
