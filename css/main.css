@@ -56,7 +56,7 @@ h2{
 
 .prices1 {
   float: left;
-  clear: all;
+  clear: left;
   color: white;
   width: 30%;
   text-align:center;
@@ -288,7 +288,7 @@ p {
 
 .content2 {
   float: left;
-  clear: all;
+  clear: left;
   width: 40%;
 }
 
